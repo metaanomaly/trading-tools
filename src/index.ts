@@ -1,4 +1,4 @@
-// Get first 10 buyers of a token
+import 'dotenv/config';
 
 const solanaTrackerApiKey = process.env.SOLANA_TRACKER_API_KEY;
 
