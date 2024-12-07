@@ -1,6 +1,11 @@
 # First Buyers Lookup
 
-A TypeScript-based utility for analyzing token buyers on the Solana blockchain using the SolanaTracker API. 🚀
+![Screenshot](./public/screenshot.png)
+
+<div align="center">
+  A TypeScript-based utility for analyzing token buyers on the Solana blockchain using the SolanaTracker API.
+</div>
+<br>
 
 ## Features
 
