@@ -1,33 +1,37 @@
-# trading-tools
+# First Buyers Lookup
 
-[![node version](https://img.shields.io/node/v/trading-tools.svg)](https://www.npmjs.com/package/trading-tools)
-[![npm version](https://badge.fury.io/js/trading-tools.svg)](https://badge.fury.io/js/trading-tools)
-[![downloads count](https://img.shields.io/npm/dt/trading-tools.svg)](https://www.npmjs.com/package/trading-tools)
-[![size](https://packagephobia.com/badge?p=trading-tools)](https://packagephobia.com/result?p=trading-tools)
-[![license](https://img.shields.io/npm/l/trading-tools.svg)](https://piecioshka.mit-license.org)
+A TypeScript-based utility for analyzing token buyers on the Solana blockchain using the SolanaTracker API. 🚀
 
-🔨 Create a project with TypeScript support
+## Features
 
-> Give a ⭐️ if this project helped you!
+- 🔍 Fetch first 100 buyers of any Solana token
+- 📊 Filter buyers by PNL (Profit and Loss)
+- 🎨 Console-based visualization with colored output for profits/losses
+- 🔗 Direct links to wallet analysis on gmgn.ai
+
+## Prerequisites
+
+- 🖥️ Node.js (Latest LTS version recommended)
+- 📦 pnpm package manager
+- 🔑 SolanaTracker API key
+
+## Installation
+
+1. 📥 Clone the repository
+2. ⚙️ Install dependencies:
+
+```bash
+pnpm install
+```
+
+## Configuration
+
+Copy the `.env.example` file to `.env` and set your SolanaTracker API key. You can get an API key from [SolanaTracker](https://data.solanatracker.io).
 
 ## Usage
 
-```bash
-npm create ts-project <name>
-
-# or
-
-npx trading-tools <name>
-```
-
-## Development
+Run the application with a token address:
 
 ```bash
-npm install
-npm start       # compile src/index.ts to dist/index.js and execute *.js file [node]
-npm run dev     # execute src/index.ts [ts-node]
+pnpm run <token-address>
 ```
-
-## License
-
-[The MIT License](https://piecioshka.mit-license.org) @ 2019-2023
