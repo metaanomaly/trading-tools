@@ -38,5 +38,5 @@ Copy the `.env.example` file to `.env` and set your SolanaTracker API key. You c
 Run the application with a token address:
 
 ```bash
-pnpm run <token-address>
+pnpm start <token-address>
 ```
